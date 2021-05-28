@@ -67,17 +67,6 @@ int main() {
         }
         ++O[i + 1][text[prev_index]];
     }
-    /*
-     * Вывод мапы
-
-    for (auto & t : O){
-        std::cout << "\n" << t.first << "\t";
-        for (auto & df : t.second) {
-            std::cout << df.first << "->" << df.second << " ";
-        }
-    }
-    */
-
     std::string cur_word;
     std::vector<int> res;
     while (input >> cur_word) {
